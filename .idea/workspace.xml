@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99b3044a-e0ea-40dc-9c60-e93076e52df2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coin_change_problem.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fractional_knapsack_problem.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +73,7 @@
       <workItem from="1577770666497" duration="237000" />
       <workItem from="1577771109474" duration="187000" />
       <workItem from="1577771304496" duration="282000" />
-      <workItem from="1577782844169" duration="10856000" />
+      <workItem from="1577782844169" duration="13479000" />
     </task>
     <servers />
   </component>
