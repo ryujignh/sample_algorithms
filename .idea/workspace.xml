@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99b3044a-e0ea-40dc-9c60-e93076e52df2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/fractional_knapsack_problem.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/longest_common_subsequence.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +19,12 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1VjducHfybIMW8UJsXFqwMLKxvK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -41,10 +47,10 @@
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -85,9 +91,10 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="586" y="370" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1792.1120@0.0.1792.1120" timestamp="1577782887269" />
-    <state x="795" y="199" key="SettingsEditor" timestamp="1577783122901">
-      <screen x="0" y="0" width="1792" height="1120" />
+    <state x="458" y="160" key="SettingsEditor" timestamp="1578973938255">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="458" y="160" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1578973938255" />
     <state x="795" y="199" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1577783122901" />
     <state x="550" y="394" key="com.intellij.ide.util.TipDialog" timestamp="1577771304933">
       <screen x="0" y="0" width="1792" height="1120" />
@@ -97,9 +104,10 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="1009" y="260" key="run.anything.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1578737079976" />
-    <state x="1009" y="251" width="670" height="676" key="search.everywhere.popup" timestamp="1577889138955">
-      <screen x="0" y="0" width="1792" height="1120" />
+    <state x="811" y="202" width="670" height="544" key="search.everywhere.popup" timestamp="1578973710920">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="811" y="202" width="670" height="544" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1578973710920" />
     <state x="1009" y="251" width="670" height="676" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1577889138955" />
   </component>
 </project>
