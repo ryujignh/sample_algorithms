@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99b3044a-e0ea-40dc-9c60-e93076e52df2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/dynamic_programming/fibonacci_series_bottom_up.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/longest_common_subsequence.rb" beforeDir="false" afterPath="$PROJECT_DIR$/longest_common_subsequence.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,14 +100,18 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="550" y="394" key="com.intellij.ide.util.TipDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1577771304933" />
+    <state x="746" y="212" width="667" height="476" key="find.popup" timestamp="1579069946793">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="746" y="212" width="667" height="476" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1579069946793" />
     <state x="1009" y="260" key="run.anything.popup" timestamp="1578737079976">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="1009" y="260" key="run.anything.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1578737079976" />
-    <state x="811" y="202" width="670" height="544" key="search.everywhere.popup" timestamp="1578973710920">
+    <state x="811" y="202" width="670" height="544" key="search.everywhere.popup" timestamp="1579069953607">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="811" y="202" width="670" height="544" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1578973710920" />
+    <state x="811" y="202" width="670" height="544" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1579069953607" />
     <state x="1009" y="251" width="670" height="676" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1577889138955" />
   </component>
 </project>
