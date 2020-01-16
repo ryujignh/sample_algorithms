@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99b3044a-e0ea-40dc-9c60-e93076e52df2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dynamic_programming/fibonacci_series_bottom_up.rb" afterDir="false" />
+    <list default="true" id="1383156e-0394-46b0-a669-27ca07ec25b3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/dynamic_programming/convert_one_string_to_another.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic_programming/house_thief_bottom_up.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic_programming/house_thief_top_down.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic_programming/number_factor_bottom_up.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic_programming/number_factor_top_down.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +41,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dynamic_programming" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -47,10 +51,11 @@
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dynamic_programming" />
       <recent name="$PROJECT_DIR$" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -104,14 +109,14 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="746" y="212" width="667" height="476" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1579069946793" />
-    <state x="1009" y="260" key="run.anything.popup" timestamp="1578737079976">
+    <state x="1009" y="260" key="run.anything.popup" timestamp="1579133343983">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="1009" y="260" key="run.anything.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1578737079976" />
-    <state x="811" y="202" width="670" height="544" key="search.everywhere.popup" timestamp="1579069953607">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="1009" y="260" key="run.anything.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1579133343983" />
+    <state x="1009" y="251" width="670" height="676" key="search.everywhere.popup" timestamp="1579133339967">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="811" y="202" width="670" height="544" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1579069953607" />
-    <state x="1009" y="251" width="670" height="676" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1577889138955" />
+    <state x="1009" y="251" width="670" height="676" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1579133339967" />
   </component>
 </project>
