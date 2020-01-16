@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1383156e-0394-46b0-a669-27ca07ec25b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dynamic_programming/convert_one_string_to_another.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic_programming/house_thief_bottom_up.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic_programming/house_thief_top_down.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic_programming/number_factor_bottom_up.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic_programming/number_factor_top_down.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,14 +44,14 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
+    <property name="settings.editor.selected.configurable" value="vcs.Perforce" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/dynamic_programming" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dynamic_programming" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -92,14 +88,15 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="586" y="370" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1577782887269">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state x="586" y="370" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1792.1120@0.0.1792.1120" timestamp="1577782887269" />
-    <state x="458" y="160" key="SettingsEditor" timestamp="1578973938255">
+    <state x="471" y="297" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579147538865">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="458" y="160" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1578973938255" />
+    <state x="471" y="297" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1579147538865" />
+    <state x="586" y="370" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1792.1120@0.0.1792.1120" timestamp="1577782887269" />
+    <state x="0" y="0" width="1440" height="900" key="SettingsEditor" timestamp="1579147722217">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="0" y="0" width="1440" height="900" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1579147722217" />
     <state x="795" y="199" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1577783122901" />
     <state x="550" y="394" key="com.intellij.ide.util.TipDialog" timestamp="1577771304933">
       <screen x="0" y="0" width="1792" height="1120" />
@@ -113,10 +110,10 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="1009" y="260" key="run.anything.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1579133343983" />
-    <state x="1009" y="251" width="670" height="676" key="search.everywhere.popup" timestamp="1579133339967">
-      <screen x="0" y="0" width="1792" height="1120" />
+    <state x="811" y="202" width="670" height="544" key="search.everywhere.popup" timestamp="1579147751186">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="811" y="202" width="670" height="544" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1579069953607" />
+    <state x="811" y="202" width="670" height="544" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1579147751186" />
     <state x="1009" y="251" width="670" height="676" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1579133339967" />
   </component>
 </project>
