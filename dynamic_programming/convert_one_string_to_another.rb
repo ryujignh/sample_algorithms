@@ -1,15 +1,18 @@
 require 'minitest/autorun'
 #require 'test/unit'
 require 'pry'
-class ConvertOneStringToAnother < Minitest::Test
+class ZeroOneKnapsack < Minitest::Test
 
   def test_calc
     s1 = "abcd"
     s2 = "abcf"
-    assert_equal(1, solution([[]], s1, s2, 0, 0))
+    dp = Array.new(s1.size, [])]
+    dp = Array.new(profits.size, [])
+    assert_equal(1, solution(dp, s1, s2, 0, 0))
   end
 
   def solution(dp, s1, s2, i1, i2)
+    #binding.pry
     if dp[i1][i2] == nil
       if i1 == s1.size
         dp[i1][i2] = s2.size - i2
