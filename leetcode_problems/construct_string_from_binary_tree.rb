@@ -25,47 +25,58 @@ class ConstructStringFromBinaryTree < Test::Unit::TestCase
     tree.left.left = TreeNode.new(4)
     tree
     output = "1(2(4))(3)"
-    @result = ""
-    tree2str(tree)
-    assert_equal(output, @result)
 
-    input = [1,2,3,nil,4]
+    assert_equal(output, tree2str(tree))
+
+    input = [1, 2, 3, nil, 4]
     output = "1(2()(4))(3)"
     tree = TreeNode.new(1)
     tree.left = TreeNode.new(2)
     tree.right = TreeNode.new(3)
     tree.left.left = TreeNode.new(nil)
     tree.left.right = TreeNode.new(4)
-    @result = ""
-    tree2str(tree)
-    assert_equal(output, @result)
 
+    assert_equal(output, tree2str(tree))
+
+
+    tree= TreeNode.new(1)
+    output = "1"
+    assert_equal(output, tree2str(tree))
+
+    tree= TreeNode.new(nil)
+    output = ""
+    assert_equal(output, tree2str(tree))
   end
 
   def tree2str(t)
+    @str = ''
+    solution(t)
+  end
+
+  def solution(t)
     if t == nil
-      return
+      return ""
     end
 
-    @result += t.val.to_s
+    @str += t.val.to_s
 
     # If leef node, then return
     if t.left == nil && t.right == nil
-      return
+      return @str
     end
 
     # for left subtree
-    @result += '('
-    tree2str(t.left)
-    @result += ')'
+    @str += '('
+    solution(t.left)
+    @str += ')'
 
     # Only if right child is present to avoid extra parenthesis
     if t.right != nil
-      @result += '('
-      tree2str(t.right)
-      @result += ')'
+      @str += '('
+      solution(t.right)
+      @str += ')'
     end
-    @result
+    @str
   end
 
 end
