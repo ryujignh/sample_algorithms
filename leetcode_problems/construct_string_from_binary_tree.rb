@@ -3,6 +3,7 @@ require 'pry'
 class ConstructStringFromBinaryTree < Test::Unit::TestCase
 
   #https://leetcode.com/problems/construct-string-from-binary-tree/
+  # Qiita: https://qiita.com/ryujignh/items/149d2a5466845cc8ab7c
 
   def test_calc
     # You need to construct a string consists of parenthesis and integers from a binary tree with the preorder traversing way.

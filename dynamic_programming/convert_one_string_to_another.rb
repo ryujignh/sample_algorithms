@@ -1,7 +1,7 @@
 require 'minitest/autorun'
 #require 'test/unit'
 require 'pry'
-class ZeroOneKnapsack < Minitest::Test
+class ConvertOneStringToAnother < Minitest::Test
 
   def test_calc
     s1 = "abcd"

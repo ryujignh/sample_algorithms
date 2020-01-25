@@ -3,6 +3,7 @@ require 'pry'
 class MostCommonWord < Test::Unit::TestCase
 
   #https://leetcode.com/problems/most-common-word/submissions/
+  # Qiita: https://qiita.com/ryujignh/items/a16251da41bcb28616a6
 
   def test_calc
     paragraph = "Bob hit a ball, the hit BALL flew far after it was hit."
