@@ -22,6 +22,14 @@ class StringCompression < Test::Unit::TestCase
     input = ["a", "a", "b", "b", "c", "c", "c"]
     output = ["a", "2", "b", "2", "c", "3"]
     assert_equal(output, compress(input))
+
+    input = ["a"]
+    output = ["a", "1"]
+    assert_equal(output, compress(input))
+
+    input = ["a","b","b","b","b","b","b","b","b","b","b","b","b"]
+    output = ["a", "1"]
+    assert_equal(output, compress(input))
   end
 
   def compress(chars)
