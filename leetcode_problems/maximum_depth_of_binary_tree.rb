@@ -22,22 +22,12 @@ class MaximumDepthOfBinaryTree < Test::Unit::TestCase
   #Recursively calculate the height of the tree to the right of the root.
   #Pick the larger height from the two answers and add one to it (to account for the root node).
   def max_depth(root)
-    if root == nil
-      return 0
-    end
+    return 0 if root.nil?
 
-    puts "root: #{root.val}"
-    leftDepth = max_depth(root.left)
-    rightDepth = max_depth(root.right)
-    puts "leftDepth: #{leftDepth} rightDepth: #{rightDepth}"
-    puts "leftDepth > rightDepth: #{leftDepth > rightDepth}"
+    left_depth = max_depth(root.left)
+    right_depth = max_depth(root.right)
 
-
-    if leftDepth > rightDepth
-      return leftDepth + 1
-    else
-      return rightDepth + 1
-    end
+    [left_depth, right_depth].max + 1
   end
 
 end
