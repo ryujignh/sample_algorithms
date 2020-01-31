@@ -10,31 +10,31 @@ class LongestPalindromicString < Test::Unit::TestCase
     assert_equal(4, solution(string, 0, string.size - 1))
   end
 
-  def solution(string, startIndex, endIndex)
+  def solution(string, start_index, end_index)
 
     # Base case - if we have traversed more than 1/2 of string then return 0 as we don't need to process it
-    if startIndex > endIndex
+    if start_index > end_index
       return 0
     end
 
     # Base case - if both the index are at same position then its a palindrome as its 1 character
-    if startIndex == endIndex
+    if start_index == end_index
       return 1
     end
     c1 = 0
 
-    if string[startIndex] == string[endIndex]
+    if string[start_index] == string[end_index]
       # Add 2 to the existing known palindrome length only if remaining string is a palindrome too
-      remainingLength = endIndex - startIndex + 1
+      remaining_length = end_index - start_index + 1
 
       # Ex: MQADASM
-      if remainingLength == solution(string, startIndex + 1, endIndex - 1)
-        c1 = remainingLength + 2
+      if remaining_length == solution(string, start_index + 1, end_index - 1)
+        c1 = remaining_length + 2
       end
     end
 
-    c2 = solution(string, startIndex + 1, endIndex)
-    c3 = solution(string, startIndex, endIndex - 1)
+    c2 = solution(string, start_index + 1, end_index)
+    c3 = solution(string, start_index, end_index - 1)
 
     [c1 [c2, c3].max].max
 
