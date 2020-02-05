@@ -1,6 +1,6 @@
 require 'minitest/autorun'
 require 'pry'
-class LongestCommonAncestorOfTwoNodes < Minitest::Test
+class LowestCommonAncestorOfTwoNodes < Minitest::Test
 
   def test_run
     root = [3, 5, 1, 6, 2, 0, 8, nil, nil, 7, 4]
